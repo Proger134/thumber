@@ -3364,9 +3364,19 @@ body.ie ._ibg img {
 .tariffs-slider__slide:first-child, .tariffs-slider__slide:nth-child(2) {
   max-height: 670px;
 }
+.tariffs-slider__slide:first-child .tariffs-content__description, .tariffs-slider__slide:nth-child(2) .tariffs-content__description {
+  min-height: 56px;
+}
 .tariffs-slider__slide:nth-child(3) {
   min-height: 780px;
   max-height: 780px;
+}
+.tariffs-slider__slide:nth-child(3) .tariffs-content__description {
+  margin: 0 -50px;
+  position: relative;
+}
+.tariffs-slider__slide:nth-child(3) .tariffs-content__price {
+  padding-bottom: 20px;
 }
 .tariffs-slider__slide:nth-child(4) {
   min-height: 850px;
